@@ -1,0 +1,475 @@
+{
+	"info": {
+		"_postman_id": "eb5da697-7594-4216-a2e2-97668578506c",
+		"name": "Epsilon - Pet store viz",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16390488"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "people",
+					"item": [
+						{
+							"name": "/",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "group-by-age-group/count",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people/group-by-age-group/count",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people",
+										"group-by-age-group",
+										"count"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "group-by-age-group/amount-spent",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people/group-by-age-group/amount-spent",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people",
+										"group-by-age-group",
+										"amount-spent"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/new-returning-stats",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people/new-returning-stats",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people",
+										"new-returning-stats"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/favorite_food",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people/favorite_food",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people",
+										"favorite_food"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/favorite_color",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people/favorite_color",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people",
+										"favorite_color"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/favorite_sport",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people/favorite_sport",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people",
+										"favorite_sport"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/favorite_hobby",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/people/favorite_hobby",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"people",
+										"favorite_hobby"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "purchaes",
+					"item": [
+						{
+							"name": "/",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/no-of-orders/category",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/no-of-orders/category?location=Virginia",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"no-of-orders",
+										"category"
+									],
+									"query": [
+										{
+											"key": "location",
+											"value": "Virginia"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/revenue/category",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/revenue/category",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"revenue",
+										"category"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/no-of-units/category",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/no-of-units/category",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"no-of-units",
+										"category"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/no-of-orders/subcategory",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/no-of-orders/subcategory?category=pet",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"no-of-orders",
+										"subcategory"
+									],
+									"query": [
+										{
+											"key": "category",
+											"value": "pet"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/revenue/subcategory",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/revenue/subcategory",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"revenue",
+										"subcategory"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/no-of-units/subcategory",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/no-of-units/subcategory",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"no-of-units",
+										"subcategory"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/no-of-orders/location",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/no-of-orders/location",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"no-of-orders",
+										"location"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/no-of-units/location",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/no-of-units/location",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"no-of-units",
+										"location"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/revenue/location",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/revenue/location",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"revenue",
+										"location"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/by-monthly/revenue",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/by-month/revenue",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"by-month",
+										"revenue"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/by-monthly/no-of-orders",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/by-month/no-of-orders",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"by-month",
+										"no-of-orders"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/by-monthly/no-of-units",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/by-month/no-of-units?category=pet",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"by-month",
+										"no-of-units"
+									],
+									"query": [
+										{
+											"key": "category",
+											"value": "pet"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "/no-of-orders/category/favorite_hobby",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "{{HOST_NAME}}/api/purchases/no-of-orders/category/favorite_hobby",
+									"host": [
+										"{{HOST_NAME}}"
+									],
+									"path": [
+										"api",
+										"purchases",
+										"no-of-orders",
+										"category",
+										"favorite_hobby"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		}
+	]
+}
