@@ -1,0 +1,24 @@
+nav {
+    .nav-list {
+        list-style-type: none;
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0;
+
+        &__list-item {
+            padding: 10px 20px;
+            cursor: pointer;
+            border: 4px solid transparent;
+
+            &:hover {
+                background-color: #001738;
+            }
+
+            &--selected {
+                border-top-color: #ffffff;
+                box-sizing: border-box;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "moduleResolution": "node",
+    "module": "es6",
+    "target": "es6",
+    "jsx": "react-jsx",
+    "allowJs": true,
+    "strict": true,
+
+    "typeRoots": ["./typings"],
+
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+
+    "noImplicitAny": true
+  }
+}

@@ -1,0 +1,7 @@
+export const ABOVE_65 = '65 and above'
+export const BW_55_64 = '55-64'
+export const BW_45_54 = '45-54'
+export const BW_35_44 = '35-44'
+export const BW_25_34 = '25-34'
+export const BW_18_24 = '18-24'
+export const UNDER_18 = 'Under 18'

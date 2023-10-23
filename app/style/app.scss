@@ -1,0 +1,42 @@
+/** ===============================================
+ * 
+ * NOTE: This test and all associated code and data
+ * are confidential and are not to be shared with 
+ * anyone outside of the Epsilon DSVA team.
+ * 
+ =================================================*/
+
+#root {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+
+  display: flex;
+  flex-flow: column;
+
+  align-items: stretch;
+
+  background: #f1f5f9;
+}
+
+main {
+  display: flex;
+
+  flex: 1;
+  padding: 1rem;
+
+  border-radius: 0.5rem;
+
+  background: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  padding: 0px;
+  margin: 0px;
+}

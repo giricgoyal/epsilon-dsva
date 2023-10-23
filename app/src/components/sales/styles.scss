@@ -1,0 +1,13 @@
+.sales {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+
+  &__graph-area {
+    flex: 1;
+    margin-top: 10px;
+    display: grid;
+    grid: 1fr 1fr / auto auto;
+    grid-gap: 10px;
+  }
+}
